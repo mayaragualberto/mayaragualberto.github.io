@@ -1,0 +1,61 @@
+.introducao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.introducao h1 {
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  margin-left: 80px;
+  position: relative;
+}
+
+.introducao h1::before {
+  content: "";
+  display: block;
+  width: 65px;
+  height: 62px;
+  background: url("../icones/dec-grande.svg") no-repeat center;
+  position: absolute;
+  left: -80px;
+  top: 15px;
+}
+
+.introducao p {
+  font-size: 1.5rem;
+  color: #525252;
+  margin-left: 80px;
+}
+
+@media (max-width: 1000px) {
+  .introducao {
+    margin-left: 0px;
+  }
+  .introducao h1 {
+    font-size: 3rem;
+  }
+  .introducao h1::before {
+    scale: 0.8;
+    top: -5px;
+    left: -8px;
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    margin-left: 0px;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+  }
+  .introducao h1::before {
+    scale: 0.5;
+    top: -12px;
+    left: -20px;
+    opacity: 0.5;
+  }
+}
