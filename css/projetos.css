@@ -89,6 +89,9 @@
   }
   .projetos .subtitulo {
     color: #141414;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
   }
   .projetos-texto {
     font-size: 1.25rem;
@@ -107,5 +110,10 @@
 @media (max-width: 400px) {
   .projetos {
     grid-template-columns: 1fr;
+  }
+  .projetos .subtitulo {
+    color: #141414;
+    word-break: keep-all;
+    font-size: 1.5rem;
   }
 }
