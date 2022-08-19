@@ -32,7 +32,7 @@
 
 @media (max-width: 1000px) {
   .introducao {
-    margin-left: 0px;
+    margin-left: -80px;
   }
   .introducao h1 {
     font-size: 3rem;
@@ -47,7 +47,7 @@
 
 @media (max-width: 800px) {
   .introducao {
-    margin-left: 0px;
+    margin-left: -80px;
   }
   .introducao h1 {
     font-size: 2rem;
