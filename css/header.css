@@ -27,6 +27,20 @@
   display: block;
 }
 
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 6px;
+  width: 0%;
+  background: linear-gradient(180deg, #1f4690 0%, #231955 100%);
+  margin-top: 4px;
+  transition: 0.3s;
+}
+
+.header-menu a:hover:after {
+  width: 100%;
+}
+
 @media (max-width: 800px) {
   .header {
     flex-direction: column;

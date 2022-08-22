@@ -33,7 +33,7 @@
   position: relative;
 }
 
-.idiomas h3::before {
+.cursos h3::before {
   display: block;
   content: "";
   width: 24px;
@@ -41,17 +41,13 @@
   position: absolute;
   left: -36px;
   top: -4px;
+}
+
+.idiomas h3::before {
   background: url("../icones/idiomas.svg") no-repeat center center;
 }
 
 .cursos-livres h3::before {
-  display: block;
-  content: "";
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: -36px;
-  top: -4px;
   background: url("../icones/cursos.svg") no-repeat center center;
 }
 
