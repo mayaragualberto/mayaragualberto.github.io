@@ -1,0 +1,87 @@
+.formacao-complementar {
+  margin-bottom: 60px;
+  color: #e0e0e0;
+}
+
+.formacao-complementar-container {
+  max-width: 1200px;
+  padding: 120px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  position: relative;
+}
+
+.formacao-complementar-container::after {
+  content: "";
+  display: block;
+  width: 62px;
+  height: 60px;
+  background: url("../icones/dec-invertido.svg") no-repeat center;
+  position: absolute;
+  top: -30px;
+  right: 20px;
+}
+
+.cursos h3 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.idiomas h3::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -4px;
+  background: url("../icones/idiomas.svg") no-repeat center center;
+}
+
+.cursos-livres h3::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -4px;
+  background: url("../icones/cursos.svg") no-repeat center center;
+}
+
+.cursos li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #525252;
+}
+
+.cursos span {
+  color: #8f8f8f;
+}
+
+.cursos-livres li {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .formacao-complementar-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .formacao-complementar .subtitulo {
+    color: #ffffff;
+  }
+  .formacao-complementar h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}
