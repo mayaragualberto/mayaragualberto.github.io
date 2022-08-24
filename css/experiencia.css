@@ -125,3 +125,14 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 400px) {
+  .experiencia-container {
+    grid-template-columns: 1fr;
+  }
+  .experiencia .subtitulo {
+    color: #cccccc;
+    word-break: keep-all;
+    font-size: 1.5rem;
+  }
+}

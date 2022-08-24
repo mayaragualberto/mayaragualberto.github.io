@@ -107,7 +107,7 @@
 
 .footer-copy {
   grid-column: 1 / -1;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #525252;
 }
 
@@ -118,5 +118,21 @@
   }
   .footer-contato li {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-texto {
+    font-size: 1.125rem;
+  }
+  .footer-dados {
+    font-size: 1.125rem;
+  }
+
+  .linkedin a::before,
+  .github a::before,
+  .telefone a::before,
+  .email a::before {
+    display: none;
   }
 }

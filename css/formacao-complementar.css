@@ -30,6 +30,7 @@
   color: #8f8f8f;
   text-transform: uppercase;
   margin-bottom: 30px;
+  margin-top: 36px;
   position: relative;
 }
 
@@ -79,5 +80,16 @@
   .formacao-complementar h3::before {
     position: initial;
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .formacao-complementar {
+    grid-template-columns: 1fr;
+  }
+  .formacao-complementar .subtitulo {
+    color: #141414;
+    word-break: keep-all;
+    font-size: 1.5rem;
   }
 }

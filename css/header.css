@@ -30,7 +30,7 @@
 .header-menu a:after {
   content: "";
   display: block;
-  height: 6px;
+  height: 4px;
   width: 0%;
   background: linear-gradient(180deg, #1f4690 0%, #231955 100%);
   margin-top: 4px;
