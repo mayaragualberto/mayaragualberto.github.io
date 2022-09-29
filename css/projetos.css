@@ -11,6 +11,12 @@
   color: #e0e0e0;
 }
 
+a {
+  text-decoration: none;
+  color: #141414;
+
+}
+
 .projetos-texto {
   font-size: 1.5rem;
   line-height: 1.33;

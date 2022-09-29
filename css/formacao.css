@@ -54,6 +54,7 @@
   padding: 20px;
   border-radius: 4px;
   display: flex;
+  flex-basis: 20%;
   flex-direction: column;
 }
 
