@@ -1,9 +1,14 @@
 Porfólio pessoal desenvolvido com HTML, CSS e JavaScript durante o curso de Desenvolvimento Web da Origamid.
 
-> Visão geral:
+> ### [Projeto/Protótipo realizados no Figma](https://www.figma.com/file/GCc15pxS2QawO6IoBgxcOK/mayara-projeto-pessoal-uma-pagina?node-id=10%3A0)
 
-<img src="portfolio.gif" width="800"/>
+<div style="text-align: center">
+  <img src="portfolio.gif" width="800"/>
+</div>
 
+<div style="text-align: center">
+  <img src="prototipo-portfolio-figma.png" width="300"/>
+</div>
 
 > Terminal (Windows) + VS Code:
 ```sh 
