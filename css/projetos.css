@@ -14,7 +14,6 @@
 a {
   text-decoration: none;
   color: #141414;
-
 }
 
 .projetos-texto {
@@ -86,6 +85,18 @@ a {
   border-radius: 4px;
   background: #ffffff;
   padding: 5px 10px;
+}
+
+div img:nth-child(2) {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 600px;
+  text-align: center;
+  border-radius: 12px;
+  margin-left: 80px;
+  margin-top: -350px;
+  box-shadow: 0 0 2px #525252;
 }
 
 @media (max-width: 800px) {
