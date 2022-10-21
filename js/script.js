@@ -1,5 +1,5 @@
 
-const projetoTitulo = document.querySelectorAll("h3.projeto-titulo");
+const projetoTitulo = document.querySelectorAll(".projeto");
 
 
 for (let i=0; i < projetoTitulo.length; i++) {

@@ -48,7 +48,7 @@
   padding: 20px;
   background: #141414;
   margin-bottom: 20px;
-  border-radius: 4px;
+  border-radius: 12px;
   position: relative;
 }
 
@@ -121,7 +121,7 @@
 }
 
 @media (max-width: 600px) {
-.empresa {
+  .empresa {
     grid-template-columns: 1fr;
   }
   .experiencia-container {
