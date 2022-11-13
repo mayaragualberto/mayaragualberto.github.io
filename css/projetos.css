@@ -28,7 +28,8 @@ a {
   color: #141414;
 }
 
-.projeto {
+.projeto,
+.projetoM {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
@@ -39,7 +40,15 @@ a {
   position: relative;
 }
 
-.projeto::before {
+span.projeto-titulo {
+  font-size: 1rem;
+  line-height: 1.1;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.projeto::before,
+.projetoM::before {
   content: " ";
   display: block;
   width: 4px;
@@ -96,6 +105,28 @@ section div img:nth-child(2) {
   border-radius: 12px;
   margin-left: -700px;
   margin-top: -100px;
+  box-shadow: 0 0 2px #525252;
+}
+
+#img-31,
+#img-32,
+#img-33,
+#img-34,
+#img-35,
+#img-36,
+#img-37,
+#img-38,
+#img-39,
+#img-40,
+#img-41 {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  text-align: center;
+  border-radius: 12px;
+  margin-left: -400px;
+  margin-top: -200px;
   box-shadow: 0 0 2px #525252;
 }
 
